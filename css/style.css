@@ -1,12 +1,39 @@
+body{
+    font-family: 'roboto';
+}
+
+.map{
+    color: white;
+}
+
+.link{
+    color: #ACACB0;
+}
+
 .navigation{
     width: 294px;
     height: 16px;
+    color: black;
+}
+.navigation:hover,
+.navigation:focus{
+    color: #2196F3;
 }
 
-main{
-    font-family: 'Roboto', sans-serif;
+.buttons{
+    background-color: #F5F4FA;
 }
-
+.buttons:hover,
+.buttons:focus{
+    background-color: #2196F3;
+}
+.buttons-text{
+    color: black;
+}
+.buttons-text:hover,
+.buttons-text:focus{
+    color: white;
+}
 .description{
     font-weight: 400;
     font-size: 16px;
@@ -38,8 +65,4 @@ footer{
 }
 .web-wite{
     color: white;
-}
-
-.address{
-    font-family: 'Roboto', sans-serif;
 }
