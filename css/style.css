@@ -1,3 +1,7 @@
+ul{
+    list-style: none;
+}
+
 body{
     font-family: 'roboto';
 }
@@ -15,6 +19,14 @@ body{
     height: 16px;
     color: black;
 }
+
+.link{
+    color: #757575;
+}
+.link:hover{
+    color: #2196F3;
+}
+
 .navigation:hover,
 .navigation:focus{
     color: #2196F3;
@@ -22,6 +34,7 @@ body{
 
 .buttons{
     background-color: #F5F4FA;
+    cursor: pointer;
 }
 .buttons:hover,
 .buttons:focus{
@@ -60,9 +73,9 @@ footer{
 
 }
 
-.web{
+.web-blue{
     color: #2196F3;
 }
-.web-wite{
+.studio-wite{
     color: white;
 }
