@@ -84,6 +84,7 @@ ul {
   background-color: var(--acent-color);
   color: #ffffff;
   margin-left: 850px;
+  cursor: pointer;
 }
 button:hover,
 :focus {
@@ -93,6 +94,7 @@ button:hover,
 .filtre-button {
   font-family: inherit;
   background-color: #f5f4fa;
+  cursor: pointer;
 }
 .filtre-button:hover,
 :focus {
