@@ -1,81 +1,100 @@
-ul{
-    list-style: none;
+/*белый #ffffff; */
+/*цвет фона #2F303A; */
+/*акцент #2196F3; */
+/* прозрачный color: rgba(255, 255, 255, 0.6);*/
+
+
+
+:root{
+    --title-text-color: #212121;
+    --primary-text-color: #757575;
+    --acent-color: #2196F3;
 }
 
-body{
-    font-family: 'roboto';
+/*---------------------------------------------------------СТУДИЯ---------------------------------------------------*/
+
+
+/*--------Шапка--------*/
+.logo{
+
+}
+.nav-link{
+    color:#212121;
+
+}
+.nav-link:hover,:focus{
+    color: var(--acent-color);
+}
+.nav-link.current{
+    color: var(--acent-color)
+}
+.header-link{
+    color: var(--primary-text-color)
+}
+.header-link:hover,:focus{
+    color: var(--acent-color);
 }
 
-.map{
-    color: white;
+/*--------Герой--------*/
+
+.hero{
+    background-color:#2F303A;
+}
+.button{
+    background-color: var(--acent-color);
+    color: #ffffff;
+}
+.button:hover:focus{
+}
+.hero-title{
+
+    color: #ffffff;
 }
 
-.link{
-    color: #ACACB0;
+/*--------Особенности--------*/
+
+.features-title{
+    color: var(--title-text-color)
 }
 
-.navigation{
-    width: 294px;
-    height: 16px;
-    color: black;
+.features,.p{
+    color: var(--primary-text-color)
 }
 
-.link{
-    color: #757575;
-}
-.link:hover{
-    color: #2196F3;
+/*--------Чем мы занимаемся--------*/
+
+.work-title{
+    color: var(--title-text-color)
 }
 
-.navigation:hover,
-.navigation:focus{
-    color: #2196F3;
-}
 
-.buttons{
+/*--------Наша команда--------*/
+
+.team{
     background-color: #F5F4FA;
-    cursor: pointer;
 }
-.buttons:hover,
-.buttons:focus{
-    background-color: #2196F3;
+.team-title{
+    color: var(--title-text-color)
 }
-.buttons-text{
-    color: black;
+.team-name{
+    color: var(--title-text-color)
 }
-.buttons-text:hover,
-.buttons-text:focus{
-    color: white;
-}
-.description{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.87;
-    color: #757575;
+.team-profession{
+    color: var(--primary-text-color)
 }
 
-.name{
-    font-family: Roboto;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-}
+/*--------Подвал--------*/
 
 footer{
-    background-color: #2F303A;
+    background-color:#2F303A ;
+}
+.google-link{
+    color: #ffffff;
+}
+.footer-link{
+    color: rgba(255, 255, 255, 0.6);
 }
 
-.web-studio{
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
 
-}
 
-.web-blue{
-    color: #2196F3;
-}
-.studio-wite{
-    color: white;
-}
+/*---------------------------------------------------------ПОРТФОЛИО---------------------------------------------------*/
