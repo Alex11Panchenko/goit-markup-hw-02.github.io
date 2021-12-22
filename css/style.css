@@ -7,11 +7,14 @@
   --title-text-color: #212121;
   --primary-text-color: #757575;
   --acent-color: #2196f3;
+  --basic-white-color: #ffffff;
+  --primary-background-color: #2f303a;
+  --batton-background-color: #f5f4fa;
 }
 
 body {
   font-family: Roboto, sans-serif;
-  background-color: #ffffff;
+  background-color: var(--basic-white-color);
 }
 ul {
   list-style: none;
@@ -25,13 +28,13 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: #2196f3;
+  color: var(--acent-color);
 }
 .part-dark {
   color: #1f1f1f;
 }
 .part-ligt {
-  color: #ffffff;
+  color: var(--basic-white-color);
 }
 .nav-link {
   font-weight: 500;
@@ -39,7 +42,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .nav-link:hover,
 :focus {
@@ -69,7 +72,7 @@ ul {
 /*--------Герой--------*/
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--primary-background-color);
 }
 .hero-title {
   font-weight: 900;
@@ -82,7 +85,7 @@ ul {
 .button {
   font-family: inherit;
   background-color: var(--acent-color);
-  color: #ffffff;
+  color: var(--basic-white-color);
   margin-left: 850px;
   cursor: pointer;
 }
@@ -93,17 +96,17 @@ button:hover,
 
 .filtre-button {
   font-family: inherit;
-  background-color: #f5f4fa;
+  background-color: var(--batton-background-color);
   cursor: pointer;
 }
 .filtre-button:hover,
 :focus {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--basic-white-color);
+  background-color: var(--acent-color);
 }
 .pointer {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--basic-white-color);
+  background-color: var(--acent-color);
 }
 .button:hover:focus {
 }
@@ -112,8 +115,7 @@ button:hover,
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
-
-  color: #ffffff;
+  color: var(--basic-white-color);
 }
 
 /*--------Особенности--------*/
@@ -167,7 +169,7 @@ button:hover,
 /*--------Наша команда--------*/
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--batton-background-color);
 }
 
 .team-title {
@@ -197,14 +199,14 @@ button:hover,
 /*--------Подвал--------*/
 
 footer {
-  background-color: #2f303a;
+  background-color: var(--primary-background-color);
 }
 .google-link {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--basic-white-color);
   text-decoration: none;
 }
 .footer-link {
