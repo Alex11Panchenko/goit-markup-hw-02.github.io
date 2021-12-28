@@ -86,7 +86,6 @@ ul {
   font-family: inherit;
   background-color: var(--acent-color);
   color: var(--basic-white-color);
-  margin-left: 850px;
   cursor: pointer;
 }
 button:hover,
